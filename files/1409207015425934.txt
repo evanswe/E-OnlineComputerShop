@@ -1,0 +1,6 @@
+451nw
+
+    Print Speed: Up to 21 ppm black (letter), Up to 21 ppm color (letter)
+    Print Resolution: Up to 600 x 600 dpi
+    Display: 2-line LCD (text)
+    Monthly Volume (Duty Cycle): Up to 40,000 pages

@@ -1,0 +1,8 @@
+
+Processor	:	PROCESSOR INTEL PENTIUM DUAL CORE G2020-2.9 GHz 3rd Gen (BX80637G2020)
+Motherboard	:	Intel Chipset (MSI 61 series)
+Chipset	:	Intel Chipset
+RAM	:	RAM APACER DDR3 2GB 1333 BUS
+Hard Drive	:	500 GB SATA (Western Digital)
+OS	:	windows 7 Free Duos
+Graphics	:	Integrated Graphic With PCI Express X16 Slot

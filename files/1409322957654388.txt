@@ -1,0 +1,5 @@
+
+Processor	:	Intel Core i3 3220 (3.30 GHz, 3 MB cache)
+Chipset	:	Intel® Q75 Express
+RAM	:	4 GB DDR3 Up to 32 GB
+Hard Drive	:	500-GB SATA 3.5 1st Hard Drive

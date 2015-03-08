@@ -1,0 +1,6 @@
+
+Processor	:	1.4GHz dual-core Intel Core i5 processor (Turbo Boost up to 2.7GHz)
+RAM	:	8GB (two 4GB) of 1600MHz DDR3 memory
+Hard Drive	:	500GB (5400-rpm) hard drive
+OS	:	OS X Mavericks & Windows Supported
+Monitor	:	21.5-inch (diagonal) LED-backlit display with IPS technology; 1920-by-1080 resolution with support for millions of colors

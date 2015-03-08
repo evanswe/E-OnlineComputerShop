@@ -1,0 +1,8 @@
+	Intel Core i3 3220 (3.30 GHz, 3 MB cache)
+Chipset	:	Intel® Q75 Express
+RAM	:	4 GB DDR3 Up to 32 GB
+Hard Drive	:	500-GB SATA 3.5 1st Hard Drive
+OS	:	Free DOS
+Monitor	:	HP 18.5'' LED Backlit LCD Wide Screen
+Graphics	:	Integrated Intel HD 2500
+Audio	:	Integrated High Definition audio with Realtek 2 channel ALC261 codec

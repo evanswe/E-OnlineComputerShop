@@ -1,0 +1,89 @@
+CREATE DATABASE ecom
+
+CREATE TABLE products(
+id int AUTO_INCREMENT PRIMARY KEY ,
+name varchar( 30 ) ,
+description varchar( 50 ) ,
+price int,
+unit int,
+vat float,
+discount float,
+stock int,
+subcategory_id int
+)
+
+CREATE TABLE user(
+id int AUTO_INCREMENT PRIMARY KEY ,
+name varchar( 30 ) ,
+email varchar( 50 ) UNIQUE KEY ,
+password varchar (10),
+usertype varchar(10),
+balance float,
+address varchar(50),
+city_id int,
+gender char(6),
+contact varchar(11),
+status varchar(10)
+)
+
+CREATE TABLE purchase(
+id int AUTO_INCREMENT PRIMARY KEY ,
+product_id int,
+user_id int,
+quantity int,
+date varchar(18)
+)
+
+CREATE TABLE city(
+id int AUTO_INCREMENT PRIMARY KEY ,
+name varchar(20),
+country_id int
+)
+
+CREATE TABLE country(
+id int AUTO_INCREMENT PRIMARY KEY ,
+name varchar(20)
+)
+
+CREATE TABLE delivary(
+id int AUTO_INCREMENT PRIMARY KEY ,
+purchase_id int,
+status varchar(10))
+
+
+CREATE TABLE category(
+id int AUTO_INCREMENT PRIMARY KEY ,
+name varchar(20)
+)
+
+CREATE TABLE subcategory(
+id int AUTO_INCREMENT PRIMARY KEY ,
+name varchar(20),
+cat_id int
+)
+
+CREATE TABLE card(
+serial int PRIMARY KEY ,
+pin varchar(11),
+amount float,
+status varchar(6)
+)
+
+ALTER TABLE city 
+ADD FOREIGN KEY(country_id) REFERENCES country(id)
+
+ALTER TABLE products
+ADD FOREIGN KEY(subcategory_id) REFERENCES category(id)
+
+ALTER TABLE user
+ADD FOREIGN KEY(city_id) REFERENCES city(id)
+
+ALTER TABLE purchase
+ADD FOREIGN KEY(product_id) REFERENCES products(id),
+ADD FOREIGN KEY(user_id) REFERENCES user(id)
+
+ALTER TABLE delivary
+ADD FOREIGN KEY(purchase_id) REFERENCES purchase(id)
+
+
+

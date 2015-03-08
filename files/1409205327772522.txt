@@ -1,0 +1,5 @@
+	Turbo Boost up to 2.6GHz
+Graphics	:	Intel HD Graphics 5000
+Operating System	:	Mac OS X Mountain Lion 10.8
+Memory/Ram	:	4GB of 1600MHz DDR3L onboard memory
+Display	:	11.6-inch (diagonal) LED-backlit, 1366 by 768 (native)e
